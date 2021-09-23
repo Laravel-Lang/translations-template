@@ -10,8 +10,15 @@
             "email": "helldar@ai-rus.com"
         }
     ],
-    "suggest": {
-        "andrey-helldar/laravel-lang-publisher": "Localization manager for working with this project"
+    "require": {
+        "php": "^7.3|^8.0",
+        "ext-json": "*",
+        "andrey-helldar/laravel-lang-publisher": "^10.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "YourNamespace\\Translations\\": "src"
+        }
     },
     "config": {
         "preferred-install": "dist",
