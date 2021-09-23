@@ -59,7 +59,7 @@ return [
      */
 
     'packages' => [
-        '<your_namespace>',
+        \YourNamespace\Translations\Provider::class,
     ],
 ];
 ```
