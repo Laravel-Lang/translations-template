@@ -17,7 +17,7 @@ Replace `<your_namespace>` with your package namespace.
 To get the latest version of `Extended Lang Translations Template` library, simply require the project using [Composer](https://getcomposer.org):
 
 ```
-$ composer require <your_namespace> --dev
+$ composer require <your_namespace>
 ```
 
 Instead, you may of course manually update your `require` block and run `composer update` if you so choose:
