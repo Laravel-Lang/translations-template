@@ -46,19 +46,9 @@ return [
 
     /*
      * Determines from which packages to synchronize localization files.
-     *
-     * A prerequisite is compliance with a single file placement format:
-     *
-     * source/
-     *   en.json
-     *   <filename>.php
-     * locales/
-     *   <locale>/
-     *     <locale>.json
-     *     <filename>.php
      */
 
-    'packages' => [
+    'plugins' => [
         \YourNamespace\Translations\Provider::class,
     ],
 ];
