@@ -2,4 +2,5 @@
 
 return [
     'hello' => 'Hallo!',
+    'world' => 'Welt!',
 ];

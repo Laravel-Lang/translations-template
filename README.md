@@ -9,8 +9,12 @@ Description of your package
 
 ## Prepare Template
 
-Replace `<your_namespace>` with your package namespace.
-
+1. Replace `<your_namespace>` with your package namespace.
+2. Replace `your/namespace` in the `composer.json` file to your namespace.
+3. Replace `YourNamespace\Translations` with your PSR package namespace.
+4. Replace `Extended Lang Translations Template` with your package title.
+5. Update tests.
+6. Remove this block.
 
 ## Installation
 
@@ -32,7 +36,8 @@ Instead, you may of course manually update your `require` block and run `compose
 
 ## Using
 
-To install files from this repository into your project, you need to install the [andrey-helldar/laravel-lang-publisher](https://github.com/andrey-helldar/laravel-lang-publisher) version `10` and above and specify the namespace of this project in its configuration.
+To install files from this repository into your project, you need to install the [andrey-helldar/laravel-lang-publisher](https://github.com/andrey-helldar/laravel-lang-publisher)
+version `10` and above and specify the namespace of this project in its configuration.
 
 For example:
 

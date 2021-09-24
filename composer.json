@@ -1,5 +1,5 @@
 {
-    "name": "<your_namespace>",
+    "name": "your/namespace",
     "description": "Extended translations for Laravel Projects",
     "type": "library",
     "license": "MIT",
@@ -15,9 +15,19 @@
         "ext-json": "*",
         "andrey-helldar/laravel-lang-publisher": "^10.1"
     },
+    "require-dev": {
+        "orchestra/testbench": "^5.0|^6.0|^7.0",
+        "phpunit/phpunit": "^9.4",
+        "symfony/var-dumper": "^5.0|^6.0"
+    },
     "autoload": {
         "psr-4": {
             "YourNamespace\\Translations\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
         }
     },
     "config": {

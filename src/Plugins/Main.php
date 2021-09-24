@@ -10,7 +10,7 @@ class Main extends BasePlugin
 {
     public function vendor(): string
     {
-        return '<your_namespace>';
+        return 'laravel/framework';
     }
 
     public function files(): array
