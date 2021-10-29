@@ -1,6 +1,6 @@
 # Extended Lang Translations Template
 
-Description of your package
+<img src="https://preview.dragon-code.pro/andrey-helldar/translations-template.svg?brand=laravel" alt="Extended Lang Translations Template"/>
 
 [![Stable Version][badge_stable]][link_packagist]
 [![Unstable Version][badge_unstable]][link_packagist]
