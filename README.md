@@ -1,6 +1,6 @@
 # Extended Lang Translations Template
 
-<img src="https://preview.dragon-code.pro/andrey-helldar/translations-template.svg" alt="Extended Lang Translations Template"/>
+<img src="https://preview.dragon-code.pro/laravel-lang/translations-template.svg" alt="Extended Lang Translations Template"/>
 
 [![Stable Version][badge_stable]][link_packagist]
 [![Unstable Version][badge_unstable]][link_packagist]
