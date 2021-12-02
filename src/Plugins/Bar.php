@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace YourNamespace\Translations\Plugins;
 
-use Helldar\LaravelLangPublisher\Plugins\BasePlugin;
+use LaravelLang\Publisher\Plugins\BasePlugin;
 
 class Bar extends BasePlugin
 {
