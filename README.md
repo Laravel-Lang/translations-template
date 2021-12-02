@@ -36,28 +36,13 @@ Instead, you may of course manually update your `require` block and run `compose
 
 ## Using
 
-To install files from this repository into your project, you need to install the [andrey-helldar/laravel-lang-publisher](https://github.com/andrey-helldar/laravel-lang-publisher)
-version `^10.1` and above and specify the namespace of this project in its configuration.
+To install files from this repository into your project, you need to install the [laravel-lang/publisher](https://github.com/Laravel-Lang/publisher)
+version `^11.1` and above.
 
-For example:
+Yes, that's all 😊
 
-```php
-// config/lang-publisher.php
+Now the package is connected to your application and you can [manage localizations](https://laravel-lang.github.io/publisher/using).
 
-<?php
-
-return [
-    // ...
-
-    /*
-     * Determines from which packages to synchronize localization files.
-     */
-
-    'plugins' => [
-        \YourNamespace\Translations\Provider::class,
-    ],
-];
-```
 
 [badge_stable]:     https://img.shields.io/github/v/release/<your_namespace>?label=stable&style=flat-square
 
