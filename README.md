@@ -31,11 +31,11 @@ To get the latest version of `Extended Lang Translations Template` library, simp
 $ composer require <your_namespace> --dev
 ```
 
-Instead, you may of course manually update your `require` block and run `composer update` if you so choose:
+Instead, you may of course manually update your `require-dev` block and run `composer update` if you so choose:
 
 ```json
 {
-    "require": {
+    "require-dev": {
         "<your_namespace>": "^1.0"
     }
 }
