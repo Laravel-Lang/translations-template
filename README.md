@@ -12,7 +12,7 @@
 Template branch compatibility with [`publisher`](https://github.com/Laravel-Lang/publisher):
 
 * [`10.x`](https://github.com/Laravel-Lang/translations-template/tree/10.x) - `laravel-lang/publisher:^10.0`
-* [`11.x`](https://github.com/Laravel-Lang/translations-template/tree/10.x) - `laravel-lang/publisher:^11.0`
+* [`11.x`](https://github.com/Laravel-Lang/translations-template/tree/11.x) - `laravel-lang/publisher:^11.0`
 
 1. Replace `<your_namespace>` with your package namespace.
 2. Replace `your/namespace` in the `composer.json` file to your namespace.
