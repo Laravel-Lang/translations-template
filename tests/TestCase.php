@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace Tests;
 
 use DragonCode\Support\Facades\Helpers\Filesystem\Directory;
+use DragonCode\Support\Facades\Helpers\Filesystem\File;
 use Illuminate\Support\Facades\Artisan;
-use Illuminate\Support\Facades\File;
 use LaravelLang\Publisher\Concerns\Has;
 use LaravelLang\Publisher\Concerns\Paths;
 use LaravelLang\Publisher\Constants\Config;

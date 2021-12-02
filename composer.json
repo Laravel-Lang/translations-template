@@ -15,6 +15,7 @@
         "ext-json": "*"
     },
     "require-dev": {
+        "dragon-code/support": "^5.4",
         "laravel-lang/publisher": "^11.1",
         "orchestra/testbench": "^5.0|^6.0|^7.0",
         "phpunit/phpunit": "^9.4",
