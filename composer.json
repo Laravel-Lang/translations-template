@@ -19,13 +19,13 @@
     "require": {
         "php": "^7.3 || ^8.0",
         "ext-json": "*",
-        "laravel-lang/publisher": "^12.0"
+        "laravel-lang/publisher": "^12.1"
     },
     "require-dev": {
-        "dragon-code/support": "^5.4",
-        "orchestra/testbench": "^5.0 || ^6.0",
+        "dragon-code/support": "^5.6",
+        "orchestra/testbench": "^5.0 || ^6.0 || ^7.0",
         "phpunit/phpunit": "^9.4",
-        "symfony/var-dumper": "^5.0"
+        "symfony/var-dumper": "^5.0 || ^6.0"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
