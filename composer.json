@@ -16,10 +16,10 @@
     },
     "require-dev": {
         "dragon-code/support": "^5.4",
-        "laravel-lang/publisher": "^11.0",
-        "orchestra/testbench": "^5.0|^6.0|^7.0",
+        "laravel-lang/publisher": "^12.0",
+        "orchestra/testbench": "^5.0|^6.0",
         "phpunit/phpunit": "^9.4",
-        "symfony/var-dumper": "^5.0|^6.0"
+        "symfony/var-dumper": "^5.0"
     },
     "autoload": {
         "psr-4": {
