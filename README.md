@@ -29,14 +29,14 @@ Template branch compatibility with [`publisher`](https://github.com/Laravel-Lang
 To get the latest version of `Extended Lang Translations Template` library, simply require the project using [Composer](https://getcomposer.org):
 
 ```
-$ composer require <your_namespace>
+$ composer require <your_namespace> --dev
 ```
 
 Instead, you may of course manually update your `require-dev` block and run `composer update` if you so choose:
 
 ```json
 {
-    "require": {
+    "require-dev": {
         "<your_namespace>": "^1.0"
     }
 }
