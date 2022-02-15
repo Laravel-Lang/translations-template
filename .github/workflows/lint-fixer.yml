@@ -15,4 +15,5 @@ jobs:
             -   name: Checking PHP Syntax
                 uses: TheDragonCode/codestyler@v1.12.4
                 with:
+                    github_token: ${{ secrets.COMPOSER_TOKEN }}
                     fix: true
