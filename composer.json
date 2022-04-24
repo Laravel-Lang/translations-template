@@ -19,10 +19,10 @@
     "require": {
         "php": "^7.3 || ^8.0",
         "ext-json": "*",
-        "laravel-lang/publisher": "^12.1"
+        "laravel-lang/publisher": "^12.1 || ^13.0"
     },
     "require-dev": {
-        "dragon-code/support": "^5.6",
+        "dragon-code/support": "^5.6 || ^6.0",
         "orchestra/testbench": "^5.0 || ^6.0 || ^7.0",
         "phpunit/phpunit": "^9.4",
         "symfony/var-dumper": "^5.0 || ^6.0"
