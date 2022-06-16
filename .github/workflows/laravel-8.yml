@@ -2,6 +2,8 @@ name: "Laravel 8"
 
 on: [ push ]
 
+permissions: read-all
+
 jobs:
     laravel:
         runs-on: ubuntu-latest

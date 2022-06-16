@@ -10,6 +10,8 @@ on:
         types:
             - released
 
+permissions: write-all
+
 jobs:
     update:
         runs-on: ubuntu-latest
