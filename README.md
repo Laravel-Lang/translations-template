@@ -11,6 +11,7 @@
 
 Template branch compatibility with [`publisher`](https://github.com/Laravel-Lang/publisher):
 
+* [`14.x`](https://github.com/Laravel-Lang/translations-template/tree/14.x) - `laravel-lang/publisher:^14.0`
 * [`13.x`](https://github.com/Laravel-Lang/translations-template/tree/13.x) - `laravel-lang/publisher:^13.0`
 * [`12.x`](https://github.com/Laravel-Lang/translations-template/tree/12.x) - `laravel-lang/publisher:^12.0`
 * [`11.x`](https://github.com/Laravel-Lang/translations-template/tree/11.x) - `laravel-lang/publisher:^11.0`
@@ -46,7 +47,7 @@ Instead, you may of course manually update your `require-dev` block and run `com
 ## Using
 
 To install files from this repository into your project, you need to install the [laravel-lang/publisher](https://github.com/Laravel-Lang/publisher)
-version `^12.0` and above.
+version `^14.0` and above.
 
 Yes, that's all 😊
 
