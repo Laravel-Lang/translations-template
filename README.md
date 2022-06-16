@@ -11,6 +11,7 @@
 
 Template branch compatibility with [`publisher`](https://github.com/Laravel-Lang/publisher):
 
+* [`13.x`](https://github.com/Laravel-Lang/translations-template/tree/13.x) - `laravel-lang/publisher:^13.0`
 * [`12.x`](https://github.com/Laravel-Lang/translations-template/tree/12.x) - `laravel-lang/publisher:^12.0`
 * [`11.x`](https://github.com/Laravel-Lang/translations-template/tree/11.x) - `laravel-lang/publisher:^11.0`
 * [`10.x`](https://github.com/Laravel-Lang/translations-template/tree/10.x) - `laravel-lang/publisher:^10.0`
