@@ -57,7 +57,6 @@ module.exports = {
                         collapsible: true,
                         children: [
                             '/installation/compatibility.md',
-                            '/installation/managers.md',
                             '/installation/github.md'
                         ]
                     },
