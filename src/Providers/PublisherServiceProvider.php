@@ -2,11 +2,12 @@
 
 declare(strict_types=1);
 
-namespace YourNamespace\Translations;
+namespace YourNamespace\Translations\Providers;
 
 use LaravelLang\Publisher\Concerns\BaseServiceProvider;
+use YourNamespace\Translations\Provider;
 
-class ServiceProvider extends BaseServiceProvider
+class PublisherServiceProvider extends BaseServiceProvider
 {
     protected function getProvider(): string
     {
