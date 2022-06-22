@@ -5,6 +5,8 @@ declare(strict_types=1);
 namespace YourNamespace\Translations;
 
 use LaravelLang\Publisher\Plugins\BaseProvider;
+use YourNamespace\Translations\Plugins\Bar;
+use YourNamespace\Translations\Plugins\Foo;
 use YourNamespace\Translations\Plugins\Main;
 
 class Provider extends BaseProvider
@@ -18,6 +20,8 @@ class Provider extends BaseProvider
     {
         return $this->resolvePlugins([
             Main::class,
+            Foo::class,
+            Bar::class,
         ]);
     }
 }
