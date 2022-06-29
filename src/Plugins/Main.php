@@ -4,14 +4,11 @@ declare(strict_types=1);
 
 namespace YourNamespace\Translations\Plugins;
 
-use LaravelLang\Publisher\Plugins\BasePlugin;
+use LaravelLang\Publisher\Plugins\Plugin;
 
-class Main extends BasePlugin
+class Main extends Plugin
 {
-    public function vendor(): string
-    {
-        return 'laravel/framework';
-    }
+    protected string $vendor = 'laravel/framework';
 
     public function files(): array
     {
