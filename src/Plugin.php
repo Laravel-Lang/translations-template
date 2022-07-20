@@ -11,6 +11,8 @@ use YourNamespace\Translations\Plugins\Main;
 
 class Plugin extends Provider
 {
+    protected ?string $package_name = 'your/namespace';
+
     protected string $base_path = __DIR__ . '/../';
 
     protected array $plugins = [
