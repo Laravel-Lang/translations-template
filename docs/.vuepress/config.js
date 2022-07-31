@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const { viteBundler, defaultTheme } = require('vuepress');
+const { docsearchPlugin } = require('@vuepress/plugin-docsearch');
 
 require('dotenv').config();
 
@@ -90,22 +91,11 @@ module.exports = {
     }),
 
     plugins: [
-        [
-            'seo',
-            {
-                description: $page => $page.frontmatter.description,
-                type: _ => 'website',
-                image: (_, $site) => $site.domain + '/images/social-logo.png'
-            }
-        ],
-        [
-            '@vuepress/docsearch',
-            {
-                appId: process.env.VITE_APP_ALGOLIA_APP_ID,
-                apiKey: process.env.VITE_APP_ALGOLIA_API_KEY,
-                indexName: process.env.VITE_APP_ALGOLIA_INDEX_NAME
-            }
-        ]
+        docsearchPlugin({
+            appId: process.env.VITE_APP_ALGOLIA_APP_ID,
+            apiKey: process.env.VITE_APP_ALGOLIA_API_KEY,
+            indexName: process.env.VITE_APP_ALGOLIA_INDEX_NAME
+        })
     ]
 };
 
