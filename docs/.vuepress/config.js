@@ -4,10 +4,11 @@ import dotenv from 'dotenv'
 
 import { defaultTheme, viteBundler } from 'vuepress'
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
+import { containerPlugin } from '@vuepress/plugin-container'
 
 dotenv.config()
 
-const hostname = 'example.com';
+const hostname = 'example.com'
 
 module.exports = {
     lang: 'en-US',
@@ -96,15 +97,19 @@ module.exports = {
             appId: process.env.VITE_APP_ALGOLIA_APP_ID,
             apiKey: process.env.VITE_APP_ALGOLIA_API_KEY,
             indexName: process.env.VITE_APP_ALGOLIA_INDEX_NAME
+        }),
+
+        containerPlugin({
+            type: 'tip'
         })
     ]
-};
+}
 
 function getChildren(folder, sort = 'asc') {
-    const extension = ['.md'];
-    const names = ['index.md', 'readme.md'];
+    const extension = ['.md']
+    const names = ['index.md', 'readme.md']
 
-    const dir = `${ __dirname }/../${ folder }`;
+    const dir = `${ __dirname }/../${ folder }`
 
     return fs
         .readdirSync(path.join(dir))
@@ -114,21 +119,20 @@ function getChildren(folder, sort = 'asc') {
             extension.includes(path.extname(item))
         )
         .sort((a, b) => {
-            a = resolveNumeric(a);
-            b = resolveNumeric(b);
+            a = resolveNumeric(a)
+            b = resolveNumeric(b)
 
-            if (a < b) return sort === 'asc' ? -1 : 1;
-            if (a > b) return sort === 'asc' ? 1 : -1;
+            if (a < b) return sort === 'asc' ? -1 : 1
+            if (a > b) return sort === 'asc' ? 1 : -1
 
-            return 0;
-        }).map(item => `/${ folder }/${ item }`);
+            return 0
+        }).map(item => `/${ folder }/${ item }`)
 }
 
 function resolveNumeric(value) {
-    const sub = value.substring(0, value.indexOf('.'));
+    const sub = value.substring(0, value.indexOf('.'))
 
-    const num = Number(sub);
+    const num = Number(sub)
 
-    return isNaN(num) ? value : num;
+    return isNaN(num) ? value : num
 }
-
