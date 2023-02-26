@@ -5,6 +5,7 @@ import dotenv from 'dotenv'
 import { defaultTheme, viteBundler } from 'vuepress'
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import { containerPlugin } from '@vuepress/plugin-container'
+import { githubLinkifyPlugin } from 'vuepress-plugin-github-linkify'
 
 dotenv.config()
 
@@ -101,6 +102,10 @@ module.exports = {
 
         containerPlugin({
             type: 'tip'
+        }),
+
+        githubLinkifyPlugin({
+            repo: 'Laravel-Lang/translations-template'
         })
     ]
 }
