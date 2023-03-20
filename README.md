@@ -1,6 +1,6 @@
 # Extended Lang Translations Template
 
-![laravel-lang translations template](https://preview.dragon-code.pro/laravel-lang/translations-template.svg?brand=laravel)
+![laravel-lang translations template](https://preview.dragon-code.pro/laravel-lang/translations-template.svg?brand=laravel&mode=dark)
 
 [![Stable Version][badge_stable]][link_packagist]
 [![Unstable Version][badge_unstable]][link_packagist]
