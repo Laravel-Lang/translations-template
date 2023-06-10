@@ -3,6 +3,7 @@ _site/
 build/
 node_modules/
 vendor/
+tmp/
 
 .cache
 .DS_Store
