@@ -1,8 +1,8 @@
 name: translate
 
 on:
-    #schedule:
-    #    -   cron: 0 0 * * *
+    schedule:
+        -   cron: 27 1 * * *
     workflow_dispatch:
 
 permissions: write-all
