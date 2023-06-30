@@ -8,7 +8,7 @@ use LaravelLang\Publisher\Plugins\Plugin;
 
 class Main extends Plugin
 {
-    protected string $vendor = 'laravel/framework';
+    protected ?string $vendor = 'laravel/framework';
 
     public function files(): array
     {
