@@ -23,7 +23,7 @@ Template branch compatibility with [`publisher`](https://github.com/Laravel-Lang
 2. Replace `your/namespace`with package namespace. For example, `laravel-lang/translations-template`.
 3. Replace `YourNamespace\Translations` with your PSR package namespace.
 4. Replace `Extended Lang Translations Template` with your package title.
-5. Replace `<username>` with your name or name of your comany.
+5. Replace `<username>` with your name or name of your company.
 6. Update tests.
 7. Remove this block.
 
