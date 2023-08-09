@@ -26,12 +26,9 @@
         "laravel-lang/publisher": "^14.6"
     },
     "require-dev": {
-        "laravel-lang/status-generator": "^1.13",
-        "phpunit/phpunit": "^9.6",
+        "laravel-lang/status-generator": "^1.19",
+        "phpunit/phpunit": "^10.0",
         "symfony/var-dumper": "^6.2"
-    },
-    "conflict": {
-        "laravel-lang/publisher": "<14.0"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
@@ -46,6 +43,9 @@
         }
     },
     "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        },
         "preferred-install": "dist",
         "sort-packages": true
     },
