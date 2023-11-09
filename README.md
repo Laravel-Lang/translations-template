@@ -32,7 +32,7 @@ Template branch compatibility with [`publisher`](https://github.com/Laravel-Lang
 To get the latest version of `Extended Lang Translations Template` library, simply require the project using [Composer](https://getcomposer.org):
 
 ```
-$ composer require <your_namespace> --dev
+$ composer require your/namespace --dev
 ```
 
 Instead, you may of course manually update your `require-dev` block and run `composer update` if you so choose:
@@ -40,7 +40,7 @@ Instead, you may of course manually update your `require-dev` block and run `com
 ```json
 {
     "require-dev": {
-        "<your_namespace>": "^1.0"
+        "your/namespace": "^1.0"
     }
 }
 ```
@@ -52,7 +52,7 @@ version `^14.0` and above.
 
 Yes, that's all 😊
 
-Now the package is connected to your application and you can [manage localizations](https://laravel-lang.github.io/publisher/using).
+Now the package is connected to your application and you can [manage localizations](https://laravel-lang.com/usage/general-principles.html).
 
 
 [badge_stable]:     https://img.shields.io/github/v/release/<your_namespace>?label=stable&style=flat-square
