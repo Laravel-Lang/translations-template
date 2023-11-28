@@ -10,6 +10,8 @@ class Foo extends Plugin
 {
     protected ?string $vendor = 'laravel/framework';
 
+    protected string $version = '^9.0';
+
     public function files(): array
     {
         return [
