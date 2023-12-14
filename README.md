@@ -47,12 +47,12 @@ Instead, you may of course manually update your `require-dev` block and run `com
 
 ## Using
 
-To install files from this repository into your project, you need to install the [laravel-lang/publisher](https://github.com/Laravel-Lang/publisher)
+To install files from this repository into your project, you need to install the [laravel-lang/publisher](https://laravel-lang.com/packages-publisher.html)
 version `^14.0` and above.
 
 Yes, that's all 😊
 
-Now the package is connected to your application and you can [manage localizations](https://laravel-lang.com/usage/general-principles.html).
+Now the package is connected to your application and you can [manage localizations](https://laravel-lang.com/manage-locales.html).
 
 
 [badge_stable]:     https://img.shields.io/github/v/release/<your_namespace>?label=stable&style=flat-square
