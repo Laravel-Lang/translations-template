@@ -44,6 +44,8 @@
     },
     "config": {
         "allow-plugins": {
+            "dragon-code/codestyler": true,
+            "ergebnis/composer-normalize": true,
             "php-http/discovery": true
         },
         "preferred-install": "dist",
