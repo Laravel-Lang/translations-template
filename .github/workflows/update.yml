@@ -72,7 +72,7 @@ jobs:
                     echo "is_dirty=${IS_DIRTY}" >> "$GITHUB_OUTPUT"
 
             -   name: Fix the code style
-                uses: TheDragonCode/codestyler@v4
+                uses: TheDragonCode/codestyler@v5
                 with:
                     github_token: ${{ secrets.COMPOSER_TOKEN }}
                     fix: true
