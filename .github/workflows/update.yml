@@ -14,7 +14,7 @@ permissions: write-all
 
 jobs:
     update:
-        runs-on: ${{ secrets.RUNNER_NAME }}
+        runs-on: ubuntu-latest
 
         steps:
             -   name: Checkout code
