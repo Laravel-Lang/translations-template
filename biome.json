@@ -11,8 +11,12 @@
             "**",
             "!node_modules",
             "!vendor",
+            "!composer.json",
             "!composer.lock",
-            "!package-lock.json"
+            "!package.json",
+            "!package-lock.json",
+            "!**/analytics.*",
+            "!**/metrics.*"
         ]
     },
     "formatter": {
