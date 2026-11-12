@@ -1,0 +1,32 @@
+{
+    "name": "<description>",
+    "description": "<description>",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [],
+    "authors": [
+        {
+            "name": "Andrey Helldar",
+            "email": "helldar@dragon-code.pro",
+            "homepage": "https://dragon-code.pro"
+        },
+        {
+            "name": "Laravel Lang Team",
+            "homepage": "https://laravel-lang.com"
+        }
+    ],
+    "require": {
+        "require": "^8.3",
+        "laravel-lang/publisher": "self.version"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "homepage": "https://laravel-lang.com",
+    "support": {
+        "source": "https://github.com/Laravel-Lang/mona"
+    }
+}
