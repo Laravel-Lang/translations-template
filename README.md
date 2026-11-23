@@ -16,11 +16,11 @@ See the [documentation](https://laravel-lang.com) for detailed installation.
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://laravel-lang.com/contributions.html) for details.
+Please see [CONTRIBUTING](https://laravel-lang.com/20.x/contributing) for details.
 
 ## License
 
-This package is licensed under the [MIT License](https://laravel-lang.com/license.html).
+This package is licensed under the [MIT License](https://laravel-lang.com/20.x/license).
 
 [badge_build]: https://img.shields.io/github/actions/workflow/status/laravel-lang/actions/tests.yml?branch=main&style=flat-square
 [badge_downloads]: https://img.shields.io/packagist/dt/laravel-lang/actions.svg?style=flat-square
