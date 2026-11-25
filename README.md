@@ -1,85 +1,23 @@
-# Extended Lang Translations Template
+# Laravel-Lang: Translations Template
 
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://banners.beyondco.de/Translations%20Template.png?pattern=topography&style=style_2&fontSize=100px&md=1&showWatermark=1&icon=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg&theme=dark&packageManager=composer+require&packageName=your%2Fnamespace&description=by+Laravel+Lang&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg">
-    <img src="https://banners.beyondco.de/Translations%20Template.png?pattern=topography&style=style_2&fontSize=100px&md=1&showWatermark=1&icon=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg&theme=light&packageManager=composer+require&packageName=your%2Fnamespace&description=by+Laravel+Lang&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg" alt="Translations Template">
-</picture>
+<p align="center">
+    <a href="https://laravel-lang.com" target="_blank"><img src="https://raw.githubusercontent.com/Laravel-Lang/art/main/socials/hero.png"></a>
+</p>
 
-[![Stable Version][badge_stable]][link_packagist]
-[![Unstable Version][badge_unstable]][link_packagist]
-[![Total Downloads][badge_downloads]][link_packagist]
-[![License][badge_license]][link_license]
+[![Stable Version](https://img.shields.io/github/v/release/laravel-lang/translations-template?label=stable&style=flat-square)](https://packagist.org/packages/laravel-lang/translations-template)
+[![Total Downloads](https://img.shields.io/packagist/dt/laravel-lang/translations-template.svg?style=flat-square)](https://packagist.org/packages/laravel-lang/translations-template)
+[![Github Workflow Status](https://img.shields.io/github/actions/workflow/status/laravel-lang/mona/tests.yml?style=flat-square)](https://github.com/Laravel-Lang/mona)
+[![License](https://img.shields.io/packagist/l/laravel-lang/translations-template.svg?style=flat-square)](https://laravel-lang.com/license)
 
-## Prepare Template
 
-Template branch compatibility with [`publisher`](https://github.com/Laravel-Lang/publisher):
+## Documentation
 
-* [`16.x`](https://github.com/Laravel-Lang/translations-template/tree/16.x) - `laravel-lang/publisher:^16.0`
-* [`15.x`](https://github.com/Laravel-Lang/translations-template/tree/15.x) - `laravel-lang/publisher:^15.0`
-* [`14.x`](https://github.com/Laravel-Lang/translations-template/tree/14.x) - `laravel-lang/publisher:^14.0`
-* [`13.x`](https://github.com/Laravel-Lang/translations-template/tree/13.x) - `laravel-lang/publisher:^13.0`
-* [`12.x`](https://github.com/Laravel-Lang/translations-template/tree/12.x) - `laravel-lang/publisher:^12.0`
-* [`11.x`](https://github.com/Laravel-Lang/translations-template/tree/11.x) - `laravel-lang/publisher:^11.0`
-* [`10.x`](https://github.com/Laravel-Lang/translations-template/tree/10.x) - `laravel-lang/publisher:^10.0`
-
-### Steps
-
-1. Replace `<your_namespace>` with your GitHub package namespace. For example, `Laravel-Lang/translations-template`.
-2. Replace `your/namespace`with package namespace. For example, `laravel-lang/translations-template`.
-3. Replace `YourNamespace\Translations` with your PSR package namespace.
-4. Replace `Extended Lang Translations Template` with your package title.
-5. Replace `<username>` with your name or name of your company.
-6. Update tests.
-7. Remove this block.
-
-## Installation
-
-To get the latest version of `Extended Lang Translations Template` library, simply require the project using [Composer](https://getcomposer.org):
-
-```
-$ composer require your/namespace --dev
-```
-
-Instead, you may of course manually update your `require-dev` block and run `composer update` if you so choose:
-
-```json
-{
-    "require-dev": {
-        "your/namespace": "^1.0"
-    }
-}
-```
-
-## Using
-
-To install files from this repository into your project, you need to install the [laravel-lang/publisher](https://laravel-lang.com/packages-publisher.html)
-version `^14.0` and above.
-
-Yes, that's all 😊
-
-Now the package is connected to your application and you can [manage localizations](https://laravel-lang.com/manage-locales.html).
+See the [documentation](https://laravel-lang.com/start) for detailed information.
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://laravel-lang.com/contributions.html) for details.
-
-## Support Us
-
-❤️ Laravel Lang? Please consider supporting our collective on [Boosty](https://boosty.to/laravel-lang).
+Please see [CONTRIBUTING](https://laravel-lang.com/contributing) for details.
 
 ## License
 
-This package is licensed under the [MIT License](https://laravel-lang.com/license.html).
-
-
-[badge_stable]:     https://img.shields.io/github/v/release/<your_namespace>?label=stable&style=flat-square
-
-[badge_unstable]:   https://img.shields.io/badge/unstable-dev--main-orange?style=flat-square
-
-[badge_downloads]:  https://img.shields.io/packagist/dt/<your_namespace>.svg?style=flat-square
-
-[badge_license]:    https://img.shields.io/packagist/l/<your_namespace>.svg?style=flat-square
-
-[link_packagist]:   https://packagist.org/packages/<your_namespace>
-
-[link_license]:     LICENSE
+This package is licensed under the [MIT License](https://laravel-lang.com/license).

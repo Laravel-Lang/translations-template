@@ -1,0 +1,17 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Laravel-Lang/mona/main/resources/laravel-lang.schema.json",
+    "plugins": [
+        {
+            "files": [
+                {
+                    "source": "example.json",
+                    "target": "{locale}.json"
+                },
+                {
+                    "source": "example.php",
+                    "target": "{locale}/example.php"
+                }
+            ]
+        }
+    ]
+}
