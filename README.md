@@ -12,7 +12,7 @@
 
 ## Documentation
 
-See the [documentation](https://laravel-lang.com/start) for detailed information.
+[Create and publish a translation pack.](https://laravel-lang.com/plugins#create-a-pack)
 
 ## Contributing
 
